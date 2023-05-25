@@ -184,3 +184,61 @@ But I prefer the command `pip install jupyter notebook`. <br> ![jupyter notebook
 To open a Jypyter Notebook, you can simply use `jupyter notebook` in the terminal. <br> ![notebook cli](img/74.png) <br>
 
 The notebook will open instantly and you can use the given URL to open that in your web browser like me! <br> ![open notebook in browser](img/75.png)
+
+
+## Step 13: Test
+
+I ran two codes to check the performance of my CUDA.
+
+1. Open a Python3 script in notebook. <br> ![open script](img/76.png)
+2. I used the following code to check whether it is using my CPU or CUDA from GPU.
+
+```python
+import torch
+
+if torch.cuda.is_available():
+    device = torch.device("cuda")
+else:
+    device = torch.device("cpu")
+print("using", device, "device") 
+```
+
+<br> ![cuda](img/77.png)
+
+3. For the performance comparison between my CPU and GPU (CUDA), I used the following code.
+
+```python
+import time
+
+matrix_size = 32*512
+
+x = torch.randn(matrix_size, matrix_size)
+y = torch.randn(matrix_size, matrix_size)
+
+print("************* CPU SPEED *******************")
+start = time.time()
+result = torch.matmul(x, y)
+print(time.time() - start)
+print("verify device:", result.device)
+
+x_gpu = x.to(device)
+y_gpu = y.to(device)
+torch.cuda.synchronize()
+
+for i in range(3):
+    print("************* GPU SPEED *******************")
+    start = time.time()
+    result_gpu = torch.matmul(x_gpu, y_gpu)
+    torch.cuda.synchronize()
+    print(time.time() - start)
+    print("verify device:", result_gpu.device)
+```
+
+![CPU vs GPU](img/78.png)
+
+<br> I also made side by side comparisons between the [Google Colab](https://colab.research.google.com/) and my computer. You can check them as well!
+
+| Try | Google Colab                        | My Computer                        |
+| --- | ----------------------------------- | ---------------------------------- |
+| 1   | [Google Colab](GoogleCollab1.ipynb) | [My PC](CUDA%20_TEST_Fahim1.ipynb) |
+| 2   | [Google Colab](GoogleCollab2.ipynb) | [My PC](CUDA%20_TEST_Fahim2.ipynb) |
