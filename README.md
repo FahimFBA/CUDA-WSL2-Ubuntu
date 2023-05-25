@@ -131,3 +131,22 @@ Also make sure to check whether the Nvidia Cuda Compiler Driver has installed or
 
 * Ensure that you have python3 installed in your system. You can check the version using `python3 --version`. If that says that "python3 is not found" or something like that, then install python.
 * Install **PIP** using `sudo apt-get install python3-pip`. <br> ![pip install](img/57.png)
+
+## Step 10: PyTorch
+
+For installing the PyTorch, go to the [official website of PyTorch](https://pytorch.org/get-started/locally/). Then make sure to select the relevant sections. After that, it will provide you a command. You have to use the command in your Ubuntu terminal. <br>
+
+For me, the selections were:
+
+* PyTorch Build: Stable (2.0.1) - Make sure to select the latest stable version always
+* Your OS: Linux
+* Package: Pip
+* Language: Python
+* Computer Platform: CUDA 11.8 - Make sure to select the latest available CUDA version
+
+After that, I got the command `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`. <br> ![PyTorch command](img/58.png) <br>
+
+I simply used that exact command in my Ubuntu terminal. <br> ![PyTorch command](img/59.png) <br>
+
+It also downloads a large file that can take a lot of time if you have a slower internet connection like me! <br> ![PyTorch download](img/60.png)
+
