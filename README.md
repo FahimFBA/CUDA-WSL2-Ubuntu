@@ -161,3 +161,17 @@ You can directly check whether your CUDA has been installed or not by running tw
 <br>
 
 If it retursn `True`, then you have successfully finished installing CUDA on your system! <br> ![cuda yes](img/61.png)
+
+## Step 12: Nvidia Developer Settings
+
+You have to enable the Nvidia Developer Settings for using CUDA via WSL. Simply follow the procedures:
+
+1. Open the **Nvidia Control Panel**. <br> ![nvidia control panel](img/62.png)
+2. Click "Agree and Continue". <br> ![agree](img/63.png).
+3. In the Nvidia Control Panel, Click Desktop > Enable Developer Settings. If the "Enable Developer Settings" does not have any check mark, then click on that to enable that feature. <br> ![not check mark](img/64.png) <br> ![check mark](img/65.png)
+4. The **Developer** section will be visible. Click on **Manage GPU Performance Counters**. <br> ![GPU counters](img/66.png)
+5. Check the radio button on "Allow access to the GPU performance counters to all users". <br> ![check](img/67.png)
+6. Click "Apply" and "Yes" to approve the changes permanently. <br> ![approve changes](img/68.png)
+7. At the end, it should look like this. <br> ![final](img/69.png)
+8. You can again check the CUDA availability like earlier. <br> ![cuda availability](img/70.png)
+   
