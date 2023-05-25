@@ -10,6 +10,12 @@
 
 This is a complete guideline that I use to set up my computer for CUDA specific workload on my Windows machine via WSL2.
 
+<br>
+
+<h3 align="center"><b>Make sure to :star: <a href="https://github.com/FahimFBA/CUDA-WSL2-Ubuntu">this</a> repository if you liked it!</b> </h3>
+
+<br>
+
 <h3 align="center">This repo is hosted at <a href="https://fahimfba.github.io/CUDA-WSL2-Ubuntu/">fahimfba.github.io/CUDA-WSL2-Ubuntu</a></h3> <br>
 
 
