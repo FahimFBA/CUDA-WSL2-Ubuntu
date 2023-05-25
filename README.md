@@ -80,3 +80,31 @@ We need to update and install some apps now.
 `.
 4. After updating, upgrade the system using `sudo apt upgrade`. <br> ![Upgrade](img/31.png) <br> ![Upgrade system](img/32.png) <br> You can clear the terminal by using the `clear` command.
 5. CUDA works with C. Thus, we need to install the gcc compiler first. Use the command `sudo apt install gcc --fix-missing`. <br> ![gcc](img/33.png) <br> ![gcc installing](img/34.png) <br> ![finishing installation](img/35.png)
+
+## Step 7: CUDA
+
+Now it is the time to install CUDA from the [official website of Nvidia](https://developer.nvidia.com/cuda-downloads). 
+
+Make sure to select the following: <br>
+**Operating System**: Linux <br>
+**Architecture**: x86_64 <br>
+**Distribution**: WSL-Ubuntu <br>
+**Version**: 2.0 <br>
+**Installer Type**: deb(local) <br> 
+<br> ![Nvidia - CUDA](img/36.png) <br>
+
+This will provide the necessary commands. <br> ![commands CUDA](img/37.png) <br> Now your task would be to apply each command serially in the WSL Ubuntu terminal. Make sure to use the first command twice. It normally resolves the problem keyring later.
+
+<br>
+
+Also, keep in mind that these commands might get changed later. Therefore, always follow the official website. For this guideline, I will be using the exact command I used to set up the CUDA in my machine. <br>
+
+1. `wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin` <br> ![1st command](img/38.png) <br> I used the same command again after finishing the previous transactions.
+2. `wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin` <br> ![1st command](img/39.png) <br>
+3. `sudo mv cuda-wsl-ubuntu.pin /etc/apt/preferences.d/cuda-repository-pin-600` <br> ![2nd Command](img/40.png) <br>
+4. `wget https://developer.download.nvidia.com/compute/cuda/12.1.1/local_installers/cuda-repo-wsl-ubuntu-12-1-local_12.1.1-1_amd64.deb` <br> ![3rd command](img/41.png) <br> This normally takes a lot of time as it downloads the large file (above 2GB file size). <br> ![large file](img/42.png)
+5. `sudo dpkg -i cuda-repo-wsl-ubuntu-12-1-local_12.1.1-1_amd64.deb` <br> ![4th command](img/43.png)
+6. `sudo cp /var/cuda-repo-wsl-ubuntu-12-1-local/cuda-*-keyring.gpg /usr/share/keyrings/` <br> ![5th command](img/44.png)
+7. Then update the system using `sudo apt-get update`. <br> ![update system](img/45.png) <br> ![updating](img/46.png)
+8. `sudo apt-get -y install cuda`. <br> ![install CUDA](img/47.png) <br> ![finish CUDA installation](img/48.png)
+
