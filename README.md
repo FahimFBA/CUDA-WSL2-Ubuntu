@@ -150,3 +150,14 @@ I simply used that exact command in my Ubuntu terminal. <br> ![PyTorch command](
 
 It also downloads a large file that can take a lot of time if you have a slower internet connection like me! <br> ![PyTorch download](img/60.png)
 
+## Step 11: CUDA availability
+
+You can directly check whether your CUDA has been installed or not by running two lines of Python code in the terminal.
+
+* Run Python in terminal using `python3`.
+* Import torch using `import torch`.
+* Check the CUDA availability using `torch.cuda.is_available()`.
+
+<br>
+
+If it retursn `True`, then you have successfully finished installing CUDA on your system! <br> ![cuda yes](img/61.png)
