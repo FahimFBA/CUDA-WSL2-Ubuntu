@@ -108,3 +108,13 @@ Also, keep in mind that these commands might get changed later. Therefore, alway
 7. Then update the system using `sudo apt-get update`. <br> ![update system](img/45.png) <br> ![updating](img/46.png)
 8. `sudo apt-get -y install cuda`. <br> ![install CUDA](img/47.png) <br> ![finish CUDA installation](img/48.png)
 
+## Step 8: Post installation
+
+The [official CUDA installation guide from Nvidia](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html) tells us to add `export PATH=/usr/local/cuda-12.1/bin${PATH:+:${PATH}}` to the **PATH** variable. <br> ![path](img/49.png) <br> I have changed the CUDA version `cuda-12.1` according to my installed CUDA version. Make sure to do the same for your updated CUDA version. <br>
+
+Do the following to do that:
+
+1. Open Ubuntu in the Windows Terminal.
+2. Go to root directory using `cd ~`. Then open the `bashrc` in nano using `nano .bashrc` <br> ![root](img/50.png)
+3. Go to at the end of the file and copy-paste the path there. For me, the path is `export PATH=/usr/local/cuda-12.1/bin${PATH:+:${PATH}}`. <br> ![path](img/51.png) <br> Then use `Ctrl` + `X` to close. Make sure to use `Y` to save in the same file.
+4. To apply the changes, use `source ~/.bashrc`. You can check the path using `echo $PATH`. <br> ![path check](img/52.png)
