@@ -126,3 +126,8 @@ Install the Nvidia Cuda Toolkit using `sudo apt install nvidia-cuda-toolkit`. <b
 You can check the Driver and CUDA version using `nvidia-smi`. <br> ![smi](img/55.png) <br>
 
 Also make sure to check whether the Nvidia Cuda Compiler Driver has installed or not by using `nvcc -V`. <br> ![nvcc](img/56.png)
+
+## Step 9: PIP
+
+* Ensure that you have python3 installed in your system. You can check the version using `python3 --version`. If that says that "python3 is not found" or something like that, then install python.
+* Install **PIP** using `sudo apt-get install python3-pip`. <br> ![pip install](img/57.png)
