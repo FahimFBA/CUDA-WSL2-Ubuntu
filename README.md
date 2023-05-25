@@ -44,7 +44,7 @@ Go to [the official website](https://learn.microsoft.com/en-us/powershell/script
 
 1. Click on **Download PowerShell** button. <br> ![Download Powershell button](img/1.png)
 2. Find the latest PowerShell of `win-x64.msi`. Download that. <br> ![latest powershell msi file](img/2.png)
-3. The installation process is pretty straightforward. However, I will be guiding you througout the entire processes. Double click on the downloaded file. Then click `Next`. <br> ![msi software](img/3.png)
+3. The installation process is pretty straightforward. However, I will be guiding you throughout the entire process. Double click on the downloaded file. Then click `Next`. <br> ![msi software](img/3.png)
 4. Keep everything as it is and click `Next`. <br> ![Next step](img/4.png)
 5. I still prefer to keep everything as it is and simply click `Next`. <br> ![Next step](img/5.png)
 6. I still prefer to keep everything as it is and simply click `Next`. <br> ![Next step](img/6.png)
