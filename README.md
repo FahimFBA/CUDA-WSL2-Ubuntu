@@ -242,3 +242,27 @@ for i in range(3):
 | --- | ----------------------------------- | ---------------------------------- |
 | 1   | [Google Colab](GoogleCollab1.ipynb) | [My PC](CUDA%20_TEST_Fahim1.ipynb) |
 | 2   | [Google Colab](GoogleCollab2.ipynb) | [My PC](CUDA%20_TEST_Fahim2.ipynb) |
+
+The result already states that my PC is working better than the Google Colab!
+
+## Step 14: Remove CUDA Deb file
+
+If you think that you do not need the CUDA deb file anymore, then you can remove that using the following command.
+
+```bash
+rm filename
+```
+
+For me it was,
+
+```bash
+rm cuda-repo-wsl-ubuntu-12-1-local_12.1.1-1_amd64.deb
+```
+
+It does not remove the CUDA from your system. It just removes the deb file from your system.
+
+<br> ![remove deb](img/79.png)
+
+## Conclusion
+
+I hope that you have successfully installed CUDA on your Windows 11 system using WSL2. If you have any questions, feel free to reach out to me, or create issues. I will try my best to answer them. <br>
