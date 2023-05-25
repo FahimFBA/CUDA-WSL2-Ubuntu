@@ -1,16 +1,26 @@
-# Setup Windows Machine for ML/DL Using CUDA (Nvidia RTX GPU)
+<p align="center"><img alt="JavaScript With Fahim Banner" src="img/Banner.png"></p>
+
+<h3 align="center"><b>Setup Windows Machine for ML/DL Using Nvidia Graphics Card (CUDA)</b></h3>
+
+<br>
+
+> **Follow [@Fahim_FBA](https://twitter.com/Fahim_FBA) on Twitter to learn more about it**.
+
+<br>
 
 This is a complete guideline that I use to set up my computer for CUDA specific workload on my Windows machine via WSL2.
+
+<h3 align="center">This repo is hosted at <a href="https://fahimfba.github.io/CUDA-WSL2-Ubuntu/">fahimfba.github.io/CUDA-WSL2-Ubuntu</a></h3> <br>
 
 
 <details>
 <summary> :arrow_right_hook: If you are also interested about my current specification that I use for this task. </summary>
 
-Processor: Ryzen 5 3500X 6 Core and 6 Threads <br>
-RAM: 32GB DDR4 3200MHz (16 GB + 8 GB + 8 GB) <br>
-GPU: Zotac RTX 3050 8GB GDDR6 <br>
-Motherboard: Gigabyte B450M Aorous Elite <br>
-Monitor: MSI Optix G24 Gaming Curved 75Hz <br>
+* Processor: Ryzen 5 3500X 6 Core and 6 Threads <br>
+* RAM: 32GB DDR4 3200MHz (16 GB + 8 GB + 8 GB) <br>
+* GPU: Zotac RTX 3050 8GB GDDR6 <br>
+* Motherboard: Gigabyte B450M Aorous Elite <br>
+* Monitor: MSI Optix G24 Gaming Curved 75Hz <br>
 
 Fun fact! I hate RGB!
 </details>
