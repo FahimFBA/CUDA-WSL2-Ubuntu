@@ -35,7 +35,7 @@ For this guideline, I will be using the Windows 11 Pro (Version 22H2) and WSL2 (
 
 ## Step 1: Internet & Electricity
 
-This whole processes can take a lot of time. Therefore, make sure to ensure proper connectivity of the internet and the electricity. For me, it took almost 7 hours in total. You would also need to download some pretty huge packages along the way.
+This whole processes can take a lot of time. Therefore, make sure to ensure proper connectivity of the internet and the electricity. For me, it took almost 7 hours in total. You would also need to download some pretty huge packages along the way. Also make sure that you have installed all the updates of your Windows 11. <br> ![Windows 11 Updates](img/win_update.png)
 
 ## Step 2: Latest PowerShell
 
