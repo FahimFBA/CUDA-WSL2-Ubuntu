@@ -25,7 +25,7 @@ This is a complete guideline that I use to set up my computer for CUDA specific 
 * Processor: Ryzen 5 3500X 6 Core and 6 Threads <br>
 * RAM: 32GB DDR4 3200MHz (16 GB + 8 GB + 8 GB) <br>
 * GPU: Zotac RTX 3050 8GB GDDR6 <br>
-* Motherboard: Gigabyte B450M Aorous Elite <br>
+* Motherboard: Gigabyte B450M Aorus Elite <br>
 * Monitor: MSI Optix G24 Gaming Curved 75Hz <br>
 
 Fun fact! I hate RGB!
