@@ -121,7 +121,7 @@ Also, keep in mind that these commands might get changed later. Therefore, alway
 1. `wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin` <br> ![1st command](img/38.png) <br> I used the same command again after finishing the previous transactions.
 2. `wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin` <br> ![1st command](img/39.png) <br>
 3. `sudo mv cuda-wsl-ubuntu.pin /etc/apt/preferences.d/cuda-repository-pin-600` <br> ![2nd Command](img/40.png) <br>
-4. `wget https://developer.download.nvidia.com/compute/cuda/12.1.1/local_installers/cuda-repo-wsl-ubuntu-12-1-local_12.1.1-1_amd64.deb` <br> ![3rd command](img/41.png) <br> This normally takes a lot of time as it downloads the large file (above 2GB file size). <br> ![large file](img/42.png)
+4. `wget https://developer.download.nvidia.com/compute/cuda/12.1.1/local_installers/cuda-repo-wsl-ubuntu-12-1-local_12.1.1-1_amd64.deb` <br> ![3rd command](img/41.png) <br> This normally takes a lot of time as it downloads a large file (above 2GB file size). <br> ![large file](img/42.png)
 5. `sudo dpkg -i cuda-repo-wsl-ubuntu-12-1-local_12.1.1-1_amd64.deb` <br> ![4th command](img/43.png)
 6. `sudo cp /var/cuda-repo-wsl-ubuntu-12-1-local/cuda-*-keyring.gpg /usr/share/keyrings/` <br> ![5th command](img/44.png)
 7. Then update the system using `sudo apt-get update`. <br> ![update system](img/45.png) <br> ![updating](img/46.png)
