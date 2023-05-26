@@ -98,7 +98,7 @@ We need to update and install some apps now.
 
 ## Step 7: CUDA
 
-Now it is the time to install CUDA from the [official website of Nvidia](https://developer.nvidia.com/cuda-downloads). 
+Now it is time to install CUDA from the [official website of Nvidia](https://developer.nvidia.com/cuda-downloads). 
 
 Make sure to select the following: <br>
 **Operating System**: Linux <br>
