@@ -83,7 +83,7 @@ Now we need to install the WSL2 and Ubuntu LTS.
 9. If you want to check the WSL OSes status (How many OSes are available, how many of them are running or stopped), use the command, `wsl --list --verbose`. <br> ![OSes status](img/24.png) <br> Here, it is telling me that I have **Ubuntu** installed on my WSL version 2 and it is currently stopped.
 10. However, after working on a WSL OS, if you want to shut down the OS, then you can use the command `wsl -t distro_name`. For me, it is Ubuntu, therefore, I used `wsl -t Ubuntu`. `t` represents the **termination** command here. ![Terminate command](img/25.png)
 11. If you have multiple OSes in WSL, and if you want to run any specific distribution, then use the command `wsl --distribution distribution_name`. For example, if I want to run Ubuntu specifically, the command would be `wsl --distribution Ubuntu`. If you only have one distribution, then you do not necessarily need to worry about this at all. <br> ![run specific distro](img/26.png)
-12. You can simply use `exit` to exit a distro from the terminal. It might not necessarily shut down the distribution. You have specifically use the termination command for that. However, some regularly used commands are here. <br> ![regularly used command](img/27.png)
+12. You can simply use `exit` to exit a distro from the terminal. It might not necessarily shut down the distribution. You can specifically use the termination command for that. However, some regularly used commands are here. <br> ![regularly used command](img/27.png)
 13. After installing a distribution, you would also be able to see and go there by using the drop-down menu from the Windows Terminal. <br> ![drop-down menu for other distributions](img/28.png)
 
 ## Step 6: Configure Ubuntu LTS
