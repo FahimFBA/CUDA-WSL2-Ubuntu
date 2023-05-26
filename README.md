@@ -179,7 +179,7 @@ You can directly check whether your CUDA has been installed or not by running tw
 
 <br>
 
-If it retursn `True`, then you have successfully finished installing CUDA on your system! <br> ![cuda yes](img/61.png)
+If it returns `True`, then you have successfully finished installing CUDA on your system! <br> ![cuda yes](img/61.png)
 
 ## Step 12: Nvidia Developer Settings
 
