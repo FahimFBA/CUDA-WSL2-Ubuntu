@@ -57,7 +57,7 @@ Go to [the official website](https://learn.microsoft.com/en-us/powershell/script
 I really like the Windows Terminal as I can simply switch to any other WSL OSes (Ubuntu, Kali, Git Bash, etc.) whenever I want. But before proceeding further, I have to make sure that my current Windows Terminal is the updated one.
 
 1. Open the **Microsoft Store** and search for `Windows Terminal`. <br> ![Windows Terminal on Microsoft Store](img/9.png)
-2. Click on `Update` if it needs the update. 
+2. Click on `Update` if it needs an update. 
 3. Make sure that you are on the latest updated Windows Terminal already.
 4. Now open the Windows Terminal, and we have to change some settings first. Click on `Open Settings`. <br> ![Windows Terminal Settings Customization](img/10.png)
 5. If you do not see the `Open Settings` prompt, then simply click the drop-down arrow, and click on `Settings`. <br> ![Settings](img/11.png)
