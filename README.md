@@ -66,7 +66,7 @@ I really like the Windows Terminal as I can simply switch to any other WSL OSes 
 
 ## Step 4: Hardware Virtualization
 
-For using the WSL, we have to make sure that our CPU virtualization is enabled. You can check the status through your task manager. <br> ![Virtualization](img/14.png)
+For using the WSL, we have to make sure that our CPU virtualization is enabled. You can check the status through your task manager. If it is disabled, then make sure to enable the virtualization through BIOS. You will find a lot of YouTube videos, but make sure that you are following the correct one that matches your motherboard brand and model. <br> ![Virtualization](img/14.png)
 
 ## Step 5: WSL & Ubuntu LTS
 
