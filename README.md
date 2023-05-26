@@ -196,7 +196,7 @@ You have to enable the Nvidia Developer Settings for using CUDA via WSL. Simply 
    
 ## Step 12: Jupyter Notebook
 
-I normally prefer the Jupyter Notebook. It is true that you can install that in various way, like `pip install notebook`. <br> ![notebook 1](img/71.png) <br> ![notebook 2](img/72.png) <br>
+I normally prefer the Jupyter Notebook. It is true that you can install that in various ways, like `pip install notebook`. <br> ![notebook 1](img/71.png) <br> ![notebook 2](img/72.png) <br>
 
 But I prefer the command `pip install jupyter notebook`. <br> ![jupyter notebook](img/73.png) <br>
 
