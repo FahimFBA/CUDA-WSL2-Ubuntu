@@ -254,10 +254,10 @@ for i in range(3):
 
 <br> I also made side by side comparisons between the [Google Colab](https://colab.research.google.com/) and my computer. You can check them as well!
 
-| Try | Google Colab                        | My Computer                        |
-| --- | ----------------------------------- | ---------------------------------- |
-| 1   | [Google Colab](GoogleCollab1.ipynb) | [My PC](CUDA%20_TEST_Fahim1.ipynb) |
-| 2   | [Google Colab](GoogleCollab2.ipynb) | [My PC](CUDA%20_TEST_Fahim2.ipynb) |
+| Try | Google Colab                                                                                                      | My Computer                                                                               |
+| --- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| 1   | [Google Colab]([GoogleCollab1.ipynb](https://github.com/FahimFBA/CUDA-WSL2-Ubuntu/blob/main/GoogleCollab1.ipynb)) | [My PC](https://github.com/FahimFBA/CUDA-WSL2-Ubuntu/blob/main/CUDA%20_TEST_Fahim1.ipynb) |
+| 2   | [Google Colab](https://github.com/FahimFBA/CUDA-WSL2-Ubuntu/blob/main/GoogleCollab2.ipynb)                        | [My PC](https://github.com/FahimFBA/CUDA-WSL2-Ubuntu/blob/main/CUDA%20_TEST_Fahim2.ipynb) |
 
 The result already states that my PC is working better than the Google Colab!
 
