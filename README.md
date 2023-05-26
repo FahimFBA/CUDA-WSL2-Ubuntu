@@ -61,7 +61,7 @@ I really like the Windows Terminal as I can simply switch to any other WSL OSes 
 3. Make sure that you are on the latest updated Windows Terminal already.
 4. Now open the Windows Terminal, and we have to change some settings first. Click on `Open Settings`. <br> ![Windows Terminal Settings Customization](img/10.png)
 5. If you do not see the `Open Settings` prompt, then simply click the drop-down arrow, and click on `Settings`. <br> ![Settings](img/11.png)
-6. From `Startup`, make sure that the **Default profile** is set on `PowerShell` (The new PowerShell we installed in [Step 2](#step-2-latest-powershell)). The `Default terminal appplication` should be set on `Windows Terminal`. <br> ![Default startup config](img/12.png)
+6. From `Startup`, make sure that the **Default profile** is set on `PowerShell` (The new PowerShell we installed in [Step 2](#step-2-latest-powershell)). The `Default terminal application` should be set on `Windows Terminal`. <br> ![Default startup config](img/12.png)
 7. Then click `Save` and exit the terminal. <br> ![Save](img/13.png)
 
 ## Step 4: Hardware Virtualization
