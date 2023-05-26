@@ -153,7 +153,7 @@ Also make sure to check whether the Nvidia Cuda Compiler Driver has been install
 
 ## Step 10: PyTorch
 
-For installing the PyTorch, go to the [official website of PyTorch](https://pytorch.org/get-started/locally/). Then make sure to select the relevant sections. After that, it will provide you a command. You have to use the command in your Ubuntu terminal. <br>
+For installing the PyTorch, go to the [official website of PyTorch](https://pytorch.org/get-started/locally/). Then make sure to select the relevant sections. After that, it will provide you with a command. You have to use the command in your Ubuntu terminal. <br>
 
 For me, the selections were:
 
