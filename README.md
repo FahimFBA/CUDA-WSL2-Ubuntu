@@ -92,8 +92,7 @@ We need to update and install some apps now.
 
 1. Open Ubuntu by using any method inside the Windows Terminal. You can obviously use the dedicated **Ubuntu App**. But I always prefer the Terminal as I can use multiple different distributions and command line applications here altogether. <br> ![start Ubuntu](img/29.png)
 2. Update the system by using the command `sudo apt update`. <br> ![update](img/30.png)
-3. If you get errors in updating/upgrading saying it can't reach to the server then change the nameserver with the command `echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
-`.
+3. If you get errors in updating/upgrading saying it can't reach to the server then change the nameserver with the command `echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null`.
 4. After updating, upgrade the system using `sudo apt upgrade`. <br> ![Upgrade](img/31.png) <br> ![Upgrade system](img/32.png) <br> You can clear the terminal by using the `clear` command.
 5. CUDA works with C. Thus, we need to install the gcc compiler first. Use the command `sudo apt install gcc --fix-missing`. <br> ![gcc](img/33.png) <br> ![gcc installing](img/34.png) <br> ![finishing installation](img/35.png)
 
