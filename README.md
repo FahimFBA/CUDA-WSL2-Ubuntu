@@ -135,7 +135,7 @@ Do the following to do that:
 
 1. Open Ubuntu in the Windows Terminal.
 2. Go to root directory using `cd ~`. Then open the `bashrc` in nano using `nano .bashrc` <br> ![root](img/50.png)
-3. Go to at the end of the file and copy-paste the path there. For me, the path is `export PATH=/usr/local/cuda-12.1/bin${PATH:+:${PATH}}`. <br> ![path](img/51.png) <br> Then use `Ctrl` + `X` to close. Make sure to use `Y` to save in the same file.
+3. Go to the end of the file and copy-paste the path there. For me, the path is `export PATH=/usr/local/cuda-12.1/bin${PATH:+:${PATH}}`. <br> ![path](img/51.png) <br> Then use `Ctrl` + `X` to close. Make sure to use `Y` to save in the same file.
 4. To apply the changes, use `source ~/.bashrc`. You can check the path using `echo $PATH`. <br> ![path check](img/52.png)
 
 ## Step 9: Nvidia CUDA Toolkit
