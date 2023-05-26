@@ -144,7 +144,7 @@ Install the Nvidia Cuda Toolkit using `sudo apt install nvidia-cuda-toolkit`. <b
 
 You can check the Driver and CUDA versions using `nvidia-smi`. <br> ![smi](img/55.png) <br>
 
-Also make sure to check whether the Nvidia Cuda Compiler Driver has installed or not by using `nvcc -V`. <br> ![nvcc](img/56.png)
+Also make sure to check whether the Nvidia Cuda Compiler Driver has been installed or not by using `nvcc -V`. <br> ![nvcc](img/56.png)
 
 ## Step 9: PIP
 
