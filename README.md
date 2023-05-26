@@ -106,7 +106,11 @@ Make sure to select the following: <br>
 **Distribution**: WSL-Ubuntu <br>
 **Version**: 2.0 <br>
 **Installer Type**: deb(local) <br> 
-<br> ![Nvidia - CUDA](img/36.png) <br>
+<br> 
+
+![Nvidia - CUDA](img/36.png) 
+
+<br>
 
 This will provide the necessary commands. <br> ![commands CUDA](img/37.png) <br> Now your task would be to apply each command serially in the WSL Ubuntu terminal. Make sure to use the first command twice. It normally resolves the problem keyring later.
 
