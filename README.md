@@ -264,6 +264,9 @@ for i in range(3):
 
 The result already states that my PC is working better than the Google Colab!
 
+> **Note**
+If you are facing an error in [step 13](#step-13-test), then check the [issue 2 created by Willfried](https://github.com/FahimFBA/CUDA-WSL2-Ubuntu/issues/2).
+
 ## Step 14: Remove CUDA Deb file
 
 If you think that you do not need the CUDA deb file anymore, then you can remove that using the following command.
